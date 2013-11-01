@@ -136,7 +136,7 @@
 			var min = col[0];
 			var max = col[col.length-1];
 			var diagnose = diagnoseSensor(key, min, max);
-			stat.append(key + ': ' + min + ' - ' + max + ' ' + diagnose + '<br />');
+			stat.append(key + ': ' + min + ' - ' + max + ' ' + (diagnose||'') + '<br />');
 		}
 	}
   
